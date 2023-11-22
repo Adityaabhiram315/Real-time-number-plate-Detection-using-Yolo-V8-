@@ -1,49 +1,66 @@
-# Real-time-number-plate-Detection-using-Yolo-V8-
-Real-time number plate detection via YOLO V8: A swift, accurate system using advanced computer vision. Detects plates in live video feeds, aiding traffic control, law enforcement. Fast, precise, and pivotal for security, traffic management.
-Sure, here's a sample README file for your project on GitHub:
+<H1 align="center">Automatic Number Plate Detection and Recognition using YOLOv8</H1>
 
 
-![License](https://img.shields.io/badge/license-MIT-blue)
+## Steps to run Code
 
-## Overview
-This repository contains code for real-time number plate detection using YOLO V8, a cutting-edge deep learning-based computer vision model. The system detects and localizes number plates in live video streams, aiding in applications like traffic monitoring, parking management, and law enforcement.
+- Clone the repository
+```
+git clone https://github.com/MuhammadMoinFaisal/Automatic_Number_Plate_Detection_Recognition_YOLOv8.git
+```
+- Goto the cloned folder.
+```
+cd Automatic_Number_Plate_Detection_Recognition_YOLOv8
+```
+- Install the dependecies
+```
+pip install -e '.[dev]'
 
-## Features
-- Real-time detection of number plates in live video feeds
-- High accuracy and efficiency powered by YOLO V8
-- Easy integration into existing systems or applications
-- Annotated datasets used for training and validation
-- Pre-trained models available for quick deployment
+```
 
-## Requirements
-- Python 3.x
-- NVIDIA GPU (recommended) for faster processing
-- Dependencies listed in `requirements.txt`
+- Setting the Directory.
+```
+cd ultralytics/yolo/v8/detect
+```
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/number-plate-detection.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Download pre-trained weights (if provided) and place them in the designated folder.
 
-## Usage
-1. Run the main script:
-   ```bash
-   python detect_number_plates.py --input <video_path>
-   ```
-2. Customize settings and parameters as needed in the script.
+- Downloading a Weights from the Google Drive
+```
+gdown "https://drive.google.com/uc?id=1dIyJooVaowaNUj0R1Q-HUnu-utiGsEj8&confirm=t"
+```
+- Downloading a Sample Video from the Google Drive
+```
+gdown "https://drive.google.com/uc?id=1P-oVR0J35Dw40lzw47sE19oADSW-tyb1&confirm=t"
 
-## Contributing
-Contributions are welcome! Feel free to open issues or pull requests for bug fixes, improvements, or new features.
+```
+- Run the code with mentioned command below (For Licence Plate Detection).
+```
+python predict.py model='best.pt' source='demo.mp4'
+```
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+- For Licence Plate Detection and Recognition
 
-## Acknowledgements
-- Credits to the creators of YOLO V8 and related libraries
-- Datasets used for training and evaluation
+- Download the Updated predict.py file from the drive
+```
+gdown "https://drive.google.com/uc?id=1S6GkQcDq8W0ThaUeZ708UegHIRiVWzTo&confirm=t"
+```
+- Run the code with mentioned command below (For Licence Plate Detection and Recognition).
+```
+python predict.py model='best.pt' source='demo.mp4'
+```
+
+### RESULTS
+
+#### Licence Plate  Detection and Recognition  
+![](./ultralytics/figure1.png)
+
+#### Licence Plate  Detection and Recognition
+
+![](./ultralytics/figure3.png)
+
+### Watch the Complete Step by Step Explanation
+
+- Video Tutorial Link  [`YouTube Link`](https://www.youtube.com/watch?v=lkAJBSmIL50&t=5s)
+
+
+[![Watch the Complete Tutorial for the Step by Step Explanation](https://img.youtube.com/vi/lkAJBSmIL50/0.jpg)]([https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://www.youtube.com/watch?v=lkAJBSmIL50))
+
