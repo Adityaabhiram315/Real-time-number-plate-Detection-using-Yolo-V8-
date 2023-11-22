@@ -3,8 +3,6 @@ Real-time number plate detection via YOLO V8: A swift, accurate system using adv
 Sure, here's a sample README file for your project on GitHub:
 
 
-# Real-Time Number Plate Detection using YOLO V8
-
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Overview
