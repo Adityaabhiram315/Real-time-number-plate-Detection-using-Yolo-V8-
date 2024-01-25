@@ -57,10 +57,4 @@ python predict.py model='best.pt' source='demo.mp4'
 
 ![](./ultralytics/figure3.png)
 
-### Watch the Complete Step by Step Explanation
-
-- Video Tutorial Link  [`YouTube Link`](https://www.youtube.com/watch?v=lkAJBSmIL50&t=5s)
-
-
-[![Watch the Complete Tutorial for the Step by Step Explanation](https://img.youtube.com/vi/lkAJBSmIL50/0.jpg)]([https://www.youtube.com/watch?v=StTqXEQ2l-Y](https://www.youtube.com/watch?v=lkAJBSmIL50))
 
