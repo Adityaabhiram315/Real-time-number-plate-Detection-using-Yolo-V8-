@@ -1,6 +1,10 @@
 <H1 align="center">Automatic Number Plate Detection and Recognition using YOLOv8</H1>
 
 
+https://github.com/Adityaabhiram315/Real-time-number-plate-Detection-using-Yolo-V8-/assets/95640107/36b057b9-7c41-4d89-a0dc-bbf0fa194a6e
+
+
+
 ## Steps to run Code
 
 - Clone the repository
